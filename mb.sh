@@ -3,11 +3,9 @@
 # ----- include libraries
 
 # if config file exists, use the variables.
-if [ -f includebash.sh ]; then
-  source includebash.sh
-else
-  echo "[!] warning - includebash.sh not found. things may look uglier."
-fi
+
+DTTITLE=""
+DTTEXT="   "
 
 # ----- check arguments
 
@@ -15,6 +13,7 @@ EXPECTED_ARGS=2
 E_BADARGS=65
 
 if [ "$#" -lt "$EXPECTED_ARGS" ]; then
+  echo "$DTTITLE"
   echo "$DTTITLE script:"
   echo "$DTTEXT this meteorbox script checks your meteor app and starts ... "
   echo "$DTTITLE usage:"
@@ -32,6 +31,7 @@ if [ "$#" -lt "$EXPECTED_ARGS" ]; then
   echo "$DTTEXT use pm2 for monitoring meteor apps"
   echo "$DTTEXT to start: cd path/to/myapp && pm2 start meteorboxrun.sh --name 'myfirstapp'"
   echo "$DTTEXT to start: pm2 save"
+  echo "$DTTITLE"
 
   exit $E_BADARGS
 fi
