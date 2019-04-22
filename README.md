@@ -1,7 +1,7 @@
 # ZenifyMeteorJS #
 
 - maintainer : Jimmy MG Lim (mirageglobe@gmail.com) / www.mirageglobe.com
-- source : https://github.com/mirageglobe/zenifysinatra
+- source : https://github.com/mirageglobe/zenifymeteorjs
 
 ZenifyMeteorJS (previously Meteorbox) is a tool that aids the building and deployment of meteorapps. It includes scaffolding, checking, and environment validation.
 
