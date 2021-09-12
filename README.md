@@ -1,5 +1,7 @@
 # ZenifyMeteorJS #
 
+This project is archived.
+
 - maintainer : Jimmy MG Lim (mirageglobe@gmail.com) / www.mirageglobe.com
 - source : https://github.com/mirageglobe/zenifymeteorjs
 
